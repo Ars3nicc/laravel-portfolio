@@ -1,0 +1,14 @@
+{
+    "languages": [
+        {
+            "image": "img/tech-stack/languages/html.png",
+            "title": "HTML"
+
+        },
+        {
+            "image": "img/tech-stack/languages/css.png",
+            "title": "CSS"
+
+        }
+    ]
+}

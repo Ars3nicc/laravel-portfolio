@@ -14,13 +14,16 @@ class HomeController extends Controller
     }
     public function Projects()
     {
-        $json = Storage::disk('public')->get('json/languages.json');
-        $data = json_decode($json, true);
-        return view('main.projects.main')->with('data', $data);
+        $language = file_get_contents(public_path('json/tools.json'));
+        return view('main.projects.main', ['language' => $language]);
+
     }
     public function TechStack(){
+        // Read JSON data from the file
+        $language = file_get_contents(public_path('tools/languages.json'));
 
+        // Pass the decoded data to the view
+        return view('main.projects.my_stacks', ['language' => $language]);
 
-        return view('main.projects.my_stacks');
     }
 }
