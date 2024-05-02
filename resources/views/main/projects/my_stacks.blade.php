@@ -13,7 +13,11 @@
     <section class="p-7 mt-16 md:flex md:justify-center items-center md:gap-3">
         <div class="text-justify md:w-2/5">
             <header class="text-5xl  text-center md:text-left font-extrabold">Tech Stacks...</header>
-            <p class="mt-5 md:w-4/5">In highlighting my career strengths and expertise, I proudly present the languages, frameworks, and technologies that I have adeptly mastered and continuously refined throughout my journey in Software Development. I have also included additional technologies with which I am quite familiar.</p>
+            <p class="mt-5 text-lg md:w-4/5">
+                Confidence in my own skills.
+                <br>
+                Highlighting my career strengths and expertise, I proudly present the languages, frameworks, and technologies that I have adeptly mastered and continuously refined throughout my journey in Software Development.
+            </p>
         </div>
         <div class="h-96 mt-9 p-3 border border-sky-500 border-solid  rounded-lg md:mt-0">
             <!-- LANGUAGES -->
